@@ -1,0 +1,38 @@
+#tabh1{
+    
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+#tabs{
+    
+    padding-top: 0px;
+    margin-top: -45px;
+    max-width: 100%;
+    
+}
+#tabui{
+     width: 100%;
+    
+}
+#tab1,#tab2,#tab3,#tab4{
+    
+    width: 24%;
+    font-size: 90%;
+    font-style: normal;
+    align-content: left;
+  
+    
+}
+   .ui-tabs .ui-tabs-nav {
+            text-align: center;
+    }
+
+    .ui-tabs .ui-tabs-nav li {
+            float: block;
+    }
+
+#icon:hover {
+ -webkit-filter: invert(100%) !important;
+}
+}
