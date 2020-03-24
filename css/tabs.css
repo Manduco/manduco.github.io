@@ -35,3 +35,24 @@
 #icon:hover {
  -webkit-filter: invert(100%) !important;
 }
+#milidev{
+    
+    align-content: center;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px; 
+    max-width:100%;
+    
+    
+    
+}
+#milidev p{
+    
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-indent: 50px;
+}
