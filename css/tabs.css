@@ -59,3 +59,9 @@
 * {
   box-sizing: border-box;
 }
+
+#miliList li{
+
+   font-size: 80%;
+
+}
