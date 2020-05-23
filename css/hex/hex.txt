@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Hexagonal Grid by Codin @ Codesmite.com</title>
+<meta name="description" content="Hexagonal Grid by Codin @ Codesmite.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="hex.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script src="hover.js"></script>
+
+</head>
+
+<body>
+<div class="d">
+
+</div>
+<div class="mydev">
+
+ <div class="list">
+
+
+    <ul id="row1" class="odd">
+        <li>
+              <img class="hex" id="hex1" src="https://via.placeholder.com/150">
+        </li>
+        <li>
+           <img class="hex" id="hex2" src="https://www.sololearn.com/Icons/Courses/1023.png">
+        </li>
+        <li>
+              <img class="hex" id="hex3" src="https://via.placeholder.com/150">
+        </li>
+        <li>
+              <img class="hex" id="hex4" src="https://via.placeholder.com/150">
+        </li>
+    </ul>
+
+    <ul id="row2" class="even">
+        <li>
+              <img class="hex" id="hex5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQniDgDUZk652LzJKY1Yw2D2KvBuJfEXURaeO0JKyLTEEwNEdRM&usqp=CAU">
+        </li>
+        <li>
+              <img class="hex" id="hex6" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+        </li>
+        <li>
+              <img class="hex" id="hex7" src="https://bs-uploads.toptal.io/blackfish-uploads/components/skill_page/content/logo_file/logo/195562/express_js-161052138fa79136c0474521906b55e2.png">
+        </li>
+    </ul>
+    <ul id="row3" class="odd">
+        <li>
+              <img class="hex" id="hex8" src="https://via.placeholder.com/150">
+        </li>
+        <li>
+              <img class="hex" id="hex9" src="https://via.placeholder.com/150">
+        </li>
+        <li>
+              <img class="hex" id="hex10" src="https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png">
+        </li>
+        <li>
+              <img class="hex" id="hex11" src="https://via.placeholder.com/150">
+        </li>
+    </ul>
+
+     </div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+.hex{
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+transition: all .2s ease-in-out;
+opacity:0.7;
+box-shadow: 10px 10px 8px #888888;
+}
+.hex:hover {
+  opacity:1;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+    opacity:1;
+}
+#row1{
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;
+ grid-gap: 1px;
+ padding: 1px;
+
+}
+#row2{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1px;
+  padding: 1px;
+  position: relative;
+  bottom: 40px;
+
+}
+#row3{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1px;
+  padding: 1px;
+  position: relative;
+  bottom: 80px;
+
+}
+#row4{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1px;
+  padding: 1px;
+
+  position: relative;
+  bottom: 120px;
+}
+.odd {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.even {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  right: -12.5%;
+}
+
+#hex3, #hex4, #hex12,#hex8,#hex9, #hex13,  #hex15{
+      opacity:0;
+}
+#hex16{
+   background-color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  #row2{
+      position: relative;
+      bottom: 25px;
+    ;}
+  #row3{
+
+        bottom: 50px;
+    ;}
+    #row4{
+
+          bottom: 75px;
+      ;}
+
+
+
+
+
+}
