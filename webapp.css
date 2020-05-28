@@ -1,0 +1,59 @@
+.tab5nav{
+  height: 400px;
+
+}
+.tab5nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.tab5nav li {
+  float: left;
+}
+
+ .tab5nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+ .tab5nav li a img {
+
+  height:160px;
+   width:160px;
+}
+
+.tab5nav li a:hover {
+  background-color: gray;
+}
+
+.ui-tabs .ui-tabs-panel {
+
+  padding: 0px;
+  margin:  0px;
+}
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

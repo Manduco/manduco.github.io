@@ -47,15 +47,9 @@
 
 }
 #milidev p{
-
-  text-align: justify;
-  display: flex;
-  flex-wrap: wrap;
-  align-content:center;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-indent: 50px;
-}
-* {
   box-sizing: border-box;
+}
+#tabs-1 p{
+  width: 600px;
+   text-align: justify;
 }
