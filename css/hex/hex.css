@@ -58,15 +58,12 @@ box-shadow: 10px 10px 8px #888888;
   width: 100%;
   right: -12.5%;
 }
-.mydev{
 
-}
-
-#hex3, #hex4, #hex12,#hex8,#hex9, #hex13, #hex14, #hex15{
+#hex3, #hex4, #hex12,#hex8,#hex9, #hex13,#hex14,  #hex15{
       opacity:0;
 }
 #hex16{
-
+   background-color: black;
 }
 
 
@@ -85,21 +82,8 @@ box-shadow: 10px 10px 8px #888888;
           bottom: 75px;
       ;}
 
-   .mydev{
-     width: 120%;
-     position: relative;
-     right: 40px;
-     margin-bottom: -50px;
-     padding-bottom: -40px;
-     height: 80%;
-   }
 
-  .timeline__desc p{
-          display: none;
-  }
-  .timeline__desc ul li{
-          display: none;
-  }
+
 
 
 }

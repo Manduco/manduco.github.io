@@ -46,7 +46,7 @@
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 0px;
   height: 300px; /* Should be removed. Only for demonstration */
   box-sizing: border-box;
 }
@@ -56,4 +56,53 @@
   content: "";
   display: table;
   clear: both;
+  height: 100%;
+}
+.row{
+  padding: 0pc;
+}
+.column ul li {
+  position: relative;
+  bottom: 40px;
+  font-size: 15px;
+}
+.column ul h4 {
+  position: relative;
+  bottom: 30px;
+  font-size: 15px;
+}
+.footerlead {
+  position: relative;
+  bottom: 30px;
+  padding-bottom: none;
+  font-size: 25px;
+  margin: 1px !important;
+}
+.footerleada {
+  position: relative;
+  bottom: 30px;
+  padding-bottom: none;
+  font-size: 20px;
+
+}
+.Copyright {
+  position: relative;
+  bottom: 30px;
+  padding-bottom: none;
+  font-size: 20px;
+
+}
+.footer2{
+  position: relative;
+  bottom: 55px;
+}
+.contact{
+  padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+
+  .footerlead {
+    display: none;
+
+  }
 }
