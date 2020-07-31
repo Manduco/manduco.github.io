@@ -11,6 +11,9 @@ box-shadow: 10px 10px 8px #888888;
   transform: scale(1.2);
     opacity:1;
 }
+.mydev{
+  margin-bottom: -180px;
+}
 #row1{
  display: grid;
  grid-template-columns: auto auto auto auto auto;
@@ -58,12 +61,25 @@ box-shadow: 10px 10px 8px #888888;
   width: 100%;
   right: -12.5%;
 }
-
-#hex3, #hex4, #hex12,#hex8,#hex9, #hex13,#hex14,  #hex15{
-      opacity:0;
+/* hides hex with no image*/
+#hex3, #hex4, #hex13,#hex8,#hex9, #hex10, #hex14, #hex16{
+      opacity: 0;
 }
 #hex16{
    background-color: black;
+}
+.skill_List h1{
+  display: inline;
+  font-size: 40px;
+
+}
+.skill_List h2{
+  display: inline;
+  color: gray;
+  position: relative;
+  bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 
@@ -83,7 +99,21 @@ box-shadow: 10px 10px 8px #888888;
       ;}
 
 
+      .skill_List h1{
+        display: inline;
+        font-size: 24px;
 
+      }
+      .skill_List h2{
+        display: inline;
+        color: gray;
+        font-size: 24px;
+
+      }
+      .skill_List{
+        position: relative;
+        bottom: -60px;
+      }
 
 
 }
