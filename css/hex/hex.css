@@ -62,11 +62,14 @@ box-shadow: 10px 10px 8px #888888;
   right: -12.5%;
 }
 /* hides hex with no image*/
-#hex3, #hex4, #hex13,#hex8,#hex9, #hex10, #hex14, #hex16{
+#hex3, #hex4, #hex13,#hex9, #hex10,  #hex16{
       opacity: 0;
 }
-#hex16{
+#hex16, #hex14{
    background-color: black;
+}
+#hex8{
+  background-color: gray;
 }
 .skill_List h1{
   display: inline;
@@ -78,8 +81,8 @@ box-shadow: 10px 10px 8px #888888;
   color: gray;
   position: relative;
   bottom: 2px;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 
