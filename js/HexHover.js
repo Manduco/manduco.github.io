@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $("#hex1").mouseover(function(){
+  $("#hex5").mouseover(function(){
        console.log("bootstrap");
         $("#bs").css("color", "#862121");
         //$("#bs").css("text-shadow", "black 2px 2px");
@@ -8,7 +8,7 @@ $(document).ready(function(){
               $("#bs").css("color", "black");
         });
   });
-  $("#hex2").mouseover(function(){
+  $("#hex3").mouseover(function(){
        console.log("css");
         $("#cs").css("color", "#862121");
         //$("#bs").css("text-shadow", "black 2px 2px");
@@ -17,7 +17,7 @@ $(document).ready(function(){
         });
   });
 
-  $("#hex5").mouseover(function(){
+  $("#hex2").mouseover(function(){
        console.log("html");
        $("#html").css("color", "#862121");
        //$("#bs").css("text-shadow", "black 2px 2px");
@@ -25,7 +25,7 @@ $(document).ready(function(){
              $("#html").css("color", "black");
        });
   });
-  $("#hex6").mouseover(function(){
+  $("#hex4").mouseover(function(){
        console.log("js");
        $("#js").css("color", "#862121");
        //$("#bs").css("text-shadow", "black 2px 2px");
@@ -33,7 +33,7 @@ $(document).ready(function(){
              $("#js").css("color", "black");
        });
   });
-  $("#hex7").mouseover(function(){
+  $("#hex6").mouseover(function(){
        console.log("jq");
        $("#jq").css("color", "#862121");
        //$("#bs").css("text-shadow", "black 2px 2px");
@@ -42,7 +42,7 @@ $(document).ready(function(){
        });
   });
 
-  $("#hex11").mouseover(function(){
+  $("#hex7").mouseover(function(){
        console.log("node");
        $("#node").css("color", "#862121");
        //$("#bs").css("text-shadow", "black 2px 2px");
@@ -50,7 +50,7 @@ $(document).ready(function(){
              $("#node").css("color", "black");
        });
   });
-  $("#hex12").mouseover(function(){
+  $("#hex10").mouseover(function(){
        console.log("mongodb");
        $("#db").css("color", "#862121");
        //$("#bs").css("text-shadow", "black 2px 2px");
@@ -59,7 +59,30 @@ $(document).ready(function(){
        });
   });
 
+  $("#hex14").mouseover(function(){
+       $("#py").css("color", "#862121");
+       //$("#bs").css("text-shadow", "black 2px 2px");
+       $(this).mouseout(function(){
+             $("#py").css("color", "black");
+       });
+  });
+
+  //new section for scripting lang
   $("#hex15").mouseover(function(){
+       $("#ps").css("color", "#862121");
+       //$("#bs").css("text-shadow", "black 2px 2px");
+       $(this).mouseout(function(){
+             $("#ps").css("color", "black");
+       });
+  });
+  $("#hex16").mouseover(function(){
+       $("#vbs").css("color", "#862121");
+       //$("#bs").css("text-shadow", "black 2px 2px");
+       $(this).mouseout(function(){
+             $("#vbs").css("color", "black");
+       });
+  });
+  $("#hex11").mouseover(function(){
        console.log("mysql");
        $("#sql").css("color", "#862121");
        //$("#bs").css("text-shadow", "black 2px 2px");
