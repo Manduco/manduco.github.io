@@ -98,6 +98,12 @@ box-shadow: 10px 10px 8px #888888;
 
 @media only screen and (max-width: 600px) {
 
+  .mydev{
+    position: relative;
+    right: 55px;
+    WXP
+
+  }
   #row2{
       position: relative;
       bottom: 25px;
@@ -114,18 +120,19 @@ box-shadow: 10px 10px 8px #888888;
 
       .skill_List h1{
         display: inline;
-        font-size: 24px;
+        font-size: 20px;
 
       }
       .skill_List h2{
         display: inline;
         color: gray;
-        font-size: 24px;
+        font-size: 20px;
 
       }
       .skill_List{
         position: relative;
         bottom: -60px;
+        padding-bottom: 20px;
       }
 
 

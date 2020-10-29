@@ -1,4 +1,12 @@
+#WXP{
+  color: #862121;
+  font-size: 25px;
+padding-top: 80px;
+margin: auto;
+width: 90%;
+padding-top: 80px;
 
+}
 .Title{
   padding: 0px;
   margin: 0px;
@@ -25,4 +33,21 @@
 .timeline #job_dis{
   color: red;
   display:none;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    #WXP{
+      padding: 20px;
+      position: relative;
+      top: 20px;
+
+
+    }
+
+
+
+
+
 }
