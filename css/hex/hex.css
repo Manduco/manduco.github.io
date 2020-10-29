@@ -62,24 +62,37 @@ box-shadow: 10px 10px 8px #888888;
   right: -12.5%;
 }
 /* hides hex with no image*/
-#hex3, #hex4, #hex13,#hex8,#hex9, #hex10, #hex14, #hex16{
+#hex1, #hex8, #hex13,#hex9, #hex12,#hex13 {
       opacity: 0;
 }
-#hex16{
+#hex16, #hex14{
    background-color: black;
 }
+#hex8{
+  background-color: gray;
+}
+#hex15{
+     background-color: black;
+}
+#hex16{
+  filter: invert(1);
+}
+
 .skill_List h1{
   display: inline;
-  font-size: 40px;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+
 
 }
 .skill_List h2{
   display: inline;
   color: gray;
   position: relative;
-  bottom: 2px;
-  padding-left: 2px;
-  padding-right: 2px;
+  top: 45px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 
