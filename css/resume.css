@@ -1,0 +1,33 @@
+html{
+   
+    max-width: 700px;
+    margin: auto;
+    background-color: brown;
+
+}
+body{
+    height: 900px;
+    background-color: white;
+
+}
+
+
+
+
+.header_1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+#logo{
+    height: 25px;
+    width:  25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+    border: 2px solid red;
+}
+#name_title{
+        
+    background-color: aqua;
+}
